@@ -1,4 +1,4 @@
-# **Windows Optimizer**
+# **Windows Optimizer Script**
 
 The **Windows Optimizer** script is a powerful tool to enhance your system’s performance. It cleans up temporary files, clears browser caches, removes unnecessary logs, and terminates resource-hogging processes. It’s designed to improve system speed and free up valuable disk space.
 
