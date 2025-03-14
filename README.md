@@ -1,6 +1,6 @@
-# **Windows Optimizer Script**
+# **WinOpti**
 
-The **Windows Optimizer** script is a powerful tool to enhance your system’s performance. It cleans up temporary files, clears browser caches, removes unnecessary logs, and terminates resource-hogging processes. It’s designed to improve system speed and free up valuable disk space.
+The **WinOpti** script is a powerful tool to enhance your system’s performance. It cleans up temporary files, clears browser caches, removes unnecessary logs, and terminates resource-hogging processes. It’s designed to improve system speed and free up valuable disk space.
 
 ## 🚀 **Features**
 
@@ -27,8 +27,7 @@ The **Windows Optimizer** script is a powerful tool to enhance your system’s p
 ## ⚙️ **Installation**
 
 1. **Download** or **Clone** this repository to your computer.
-2. Save the script file (`windows_optimizer.bat`) in a location of your choice.
-3. Right-click on the script file and select **Run as Administrator**.
+2. Save the script file (`winopti.bat`) in a location of your choice.
 
 ## 📝 **Usage**
 
@@ -43,14 +42,14 @@ The **Windows Optimizer** script is a powerful tool to enhance your system’s p
 
 3. **Log File Generation**  
    Once the script finishes, a log file will be generated on your **Desktop** with detailed information about the performed actions. The log file is named with the format:
-   - `windows_optimizer_log_<date>_<time>.txt`
+   - `winopti_log_<date>_<time>.txt`
 
 ## 📂 **Log File Location**
 
 The log file will be saved on your **Desktop** with the naming format:
 
 Example:  
-`windows_optimizer_log_2025-02-23_15-30.txt`
+`winopti_log_2025-02-23_15-30.txt`
 
 ## 🔄 **Processes Closed**
 
