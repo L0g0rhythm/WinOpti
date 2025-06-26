@@ -1,0 +1,28 @@
+{
+  "diskCleanupHandlers": [
+    "Active Setup Temp Folders",
+    "BranchCache",
+    "Delivery Optimization Files",
+    "Downloaded Program Files",
+    "Internet Cache Files",
+    "Old ChkDsk Files",
+    "Previous Installations",
+    "Recycle Bin",
+    "Service Pack Cleanup",
+    "Setup Log Files",
+    "System error memory dump files",
+    "System error minidump files",
+    "Temporary Files",
+    "Temporary Internet Files",
+    "Temporary Setup Files",
+    "Temporary Sync Files",
+    "Thumbnails",
+    "Update Cleanup",
+    "User file versions",
+    "Windows Defender",
+    "Windows Error Reporting Files",
+    "Windows ESD installation files",
+    "Windows Upgrade Log Files",
+    "DirectX Shader Cache"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "processesToTerminate": [
+    "msedge.exe",
+    "firefox.exe",
+    "chrome.exe",
+    "vivaldi.exe",
+    "brave.exe",
+    "opera.exe",
+    "Acrotray.exe",
+    "GoogleUpdate.exe",
+    "Skype.exe",
+    "Spotify.exe",
+    "Steam.exe",
+    "Cortana.exe"
+  ],
+  "directoriesToClean": [
+    {
+      "path": "%USERPROFILE%\\AppData\\Local\\Temp",
+      "description": "User Temporary Files"
+    },
+    { "path": "%SystemRoot%\\Temp", "description": "Windows Temporary Files" }
+  ],
+  "logFilesToClean": [
+    { "path": "%SystemRoot%\\Logs\\CBS\\*.log", "description": "CBS Logs" },
+    {
+      "path": "%SystemRoot%\\Logs\\MoSetup\\*.log",
+      "description": "MoSetup Logs"
+    },
+    { "path": "%SystemRoot%\\Panther\\*.log", "description": "Panther Logs" }
+  ],
+  "browsersToClean": [
+    {
+      "name": "Google Chrome",
+      "basePath": "%USERPROFILE%\\AppData\\Local\\Google\\Chrome\\User Data",
+      "cachePaths": [
+        "Default\\Cache",
+        "Default\\GPUCache",
+        "Default\\Service Worker\\CacheStorage"
+      ]
+    },
+    {
+      "name": "Microsoft Edge",
+      "basePath": "%USERPROFILE%\\AppData\\Local\\Microsoft\\Edge\\User Data",
+      "cachePaths": [
+        "Default\\Cache",
+        "Default\\GPUCache",
+        "Default\\Service Worker\\CacheStorage"
+      ]
+    },
+    {
+      "name": "Mozilla Firefox",
+      "basePath": "%USERPROFILE%\\AppData\\Local\\Mozilla\\Firefox\\Profiles",
+      "cachePaths": ["*.default*\\cache2"]
+    },
+    {
+      "name": "Brave",
+      "basePath": "%USERPROFILE%\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data",
+      "cachePaths": [
+        "Default\\Cache",
+        "Default\\GPUCache",
+        "Default\\Service Worker\\CacheStorage"
+      ]
+    }
+  ]
+}

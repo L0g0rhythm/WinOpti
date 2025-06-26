@@ -1,0 +1,5 @@
+{
+  "logDirectory": "",
+  "logFileNamePrefix": "WinOpti_Log_",
+  "includeTimestampInFileName": true
+}
